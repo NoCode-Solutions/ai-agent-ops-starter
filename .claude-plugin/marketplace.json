@@ -1,0 +1,27 @@
+{
+  "name": "nocode-solutions",
+  "owner": {
+    "name": "NoCode Solutions, Inc.",
+    "url": "https://nocode-sol.co.jp/"
+  },
+  "description": "AIエージェントを毎日の業務に載せるための土台を配布します。",
+  "metadata": {
+    "description": "AIエージェントを毎日の業務に載せるための土台を配布します。株式会社ノーコードソリューションズが社内で使っているものを、MITで公開しています。"
+  },
+  "plugins": [
+    {
+      "name": "ai-agent-ops",
+      "source": "./plugins/ai-agent-ops",
+      "description": "ルール・記憶・分業・フックの土台を作る。共通のファイルはそのまま入り、自社の中身だけを質問で聞き出す。",
+      "category": "workflow",
+      "tags": ["ops", "memory", "onboarding", "japanese"],
+      "author": {
+        "name": "NoCode Solutions, Inc.",
+        "url": "https://nocode-sol.co.jp/"
+      },
+      "homepage": "https://github.com/NoCode-Solutions/ai-agent-ops-starter",
+      "repository": "https://github.com/NoCode-Solutions/ai-agent-ops-starter",
+      "license": "MIT"
+    }
+  ]
+}

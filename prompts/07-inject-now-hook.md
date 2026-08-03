@@ -26,4 +26,4 @@
 
 打ち切りの警告を入れてあるのは、上限を超えたことに気づく仕組みがないと、上限が守られないからです。
 
-動く実装は [`../reference/hooks/inject-now.sh`](../reference/hooks/inject-now.sh) にあります。
+動く実装は [`../plugins/ai-agent-ops/hooks/inject-now.sh`](../plugins/ai-agent-ops/hooks/inject-now.sh) にあります。

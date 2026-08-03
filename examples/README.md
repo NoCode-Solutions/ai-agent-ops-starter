@@ -2,9 +2,12 @@
 
 弊社が実際に使っているものです。雛形ではなく、動いているファイルから固有名詞と社内の事情を外しただけのものを置いています。
 
+**ここにあるのは読むためのものです。**インストールしても入りません。他社の業務そのものなので、そのまま入れても使い道がないためです。見てほしいのは中身より書式のほうです。
+
+（探索エージェント `scout` はプラグインに同梱してあり、インストールすればそのまま使えます。実体は [`../plugins/ai-agent-ops/agents/scout.md`](../plugins/ai-agent-ops/agents/scout.md)）
+
 | ファイル | 何のためのものか |
 |---|---|
-| [`agents/scout.md`](agents/scout.md) | 探索専用のサブエージェント。読み取り系のツールだけを許可し、判断はさせない |
 | [`memory/feedback_exit-code-is-not-success.md`](memory/feedback_exit-code-is-not-success.md) | 記憶ファイル1件の実物。事故の具体を日付つきで書いてある |
 | [`skills/codex-second-opinion/SKILL.md`](skills/codex-second-opinion/SKILL.md) | 別系統のAIに読み取り専用でレビューさせるスキル |
 | [`skills/demo-company-hp/SKILL.md`](skills/demo-company-hp/SKILL.md) | 提案用のデモサイトを、調査から公開まで通しで作るスキル |
@@ -13,7 +16,7 @@
 
 記憶は各社の中身そのものなので、他社にとって役立つのは書式だけです。見てほしいのは **Why に事故の具体が入っているところ**です。一般論として「終了コードを信じるな」とだけ書いても、次に似た場面が来たときに結びつきません。
 
-書き方は [`../reference/memory-writing.md`](../reference/memory-writing.md) にまとめてあります。
+書き方は [`../plugins/ai-agent-ops/reference/memory-writing.md`](../plugins/ai-agent-ops/reference/memory-writing.md) にまとめてあります。
 
 ## スキルを2本置いている理由
 

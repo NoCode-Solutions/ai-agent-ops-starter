@@ -34,4 +34,4 @@
 
 フックで止めるのではなく、**その操作を実行できない作りにしてしまう方法です。**社内のある担当は「勝手に送信するな」をルールに書かず、送信の指定を渡すとエラーで止まるコードにしています。指示を足すのではなく構造を変える、という考え方です。
 
-動く実装は [`../reference/hooks/block-outbound.sh`](../reference/hooks/block-outbound.sh) にあります。
+動く実装は [`../plugins/ai-agent-ops/hooks/block-outbound.sh`](../plugins/ai-agent-ops/hooks/block-outbound.sh) にあります。

@@ -30,4 +30,4 @@
 
 数回のツール呼び出しで終わる調べ物には使わないでください。別のエージェントを立てると、そちらに前提を渡し直す手間がかかります。委譲するのは、中間出力が大量に出る作業だけです。
 
-弊社が使っている実物は [`../examples/agents/scout.md`](../examples/agents/scout.md) にあります。
+弊社が使っている実物は [`../plugins/ai-agent-ops/agents/scout.md`](../plugins/ai-agent-ops/agents/scout.md) にあります。

@@ -1,0 +1,13 @@
+{
+  "name": "ai-agent-ops",
+  "description": "AIエージェントを毎日の業務に載せるための土台。ルールのファイル・記憶・探索の分業・フックを、共通部分はそのまま、自社固有の中身は質問で聞き出して作る。",
+  "version": "1.0.0",
+  "author": {
+    "name": "NoCode Solutions, Inc.",
+    "url": "https://nocode-sol.co.jp/"
+  },
+  "homepage": "https://github.com/NoCode-Solutions/ai-agent-ops-starter",
+  "repository": "https://github.com/NoCode-Solutions/ai-agent-ops-starter",
+  "license": "MIT",
+  "keywords": ["ops", "memory", "onboarding", "japanese"]
+}

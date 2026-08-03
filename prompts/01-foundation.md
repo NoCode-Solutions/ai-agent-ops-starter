@@ -48,4 +48,4 @@
 - 答えていないことが書かれていないか。推測で埋められた行は消す
 - 200行を超えていないか
 
-完成の形は [`../reference/CLAUDE.md`](../reference/CLAUDE.md) にあります。答え合わせに使ってください。
+完成の形は [`../plugins/ai-agent-ops/reference/CLAUDE.md`](../plugins/ai-agent-ops/reference/CLAUDE.md) にあります。答え合わせに使ってください。

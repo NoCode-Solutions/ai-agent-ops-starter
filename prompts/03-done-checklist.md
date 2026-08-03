@@ -26,4 +26,4 @@ CLAUDE.md の「完了前のチェックリスト」に、次の項目を追加�
 
 冪等の判定は完了マーカーではなく、**保存先の実状態**で行ってください。マーカーは嘘をつきますが、実状態は嘘をつきません。実例は [`../examples/memory/feedback_exit-code-is-not-success.md`](../examples/memory/feedback_exit-code-is-not-success.md) にあります。
 
-一覧の全文は [`../reference/before-done.md`](../reference/before-done.md) にあります。
+一覧の全文は [`../plugins/ai-agent-ops/reference/before-done.md`](../plugins/ai-agent-ops/reference/before-done.md) にあります。
