@@ -15,7 +15,9 @@
 NOW="<現在地ファイルの絶対パス>"
 [ -f "$NOW" ] || exit 0
 
-MAX_LINES=100
+# 現在地ファイル自身に書く上限と同じ数にする。数が食い違うと、
+# ファイルの約束を破っているのに警告が出ない範囲ができる。
+MAX_LINES=80
 
 python3 - "$NOW" "$MAX_LINES" <<'PY'
 import json, sys
