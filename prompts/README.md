@@ -12,7 +12,7 @@
 | 指示していないのに勝手に進んだ | [`02-stop-condition.md`](02-stop-condition.md) 止まって確認する条件を足す |
 | 「できました」が当てにならない | [`03-done-checklist.md`](03-done-checklist.md) 完了前のチェックリストを足す |
 | 調べ物をさせると本題が押し流される | [`04-scout-agent.md`](04-scout-agent.md) 探索の担当を分ける |
-| ルールに書いたのに危ない操作をやろうとする | [`05-block-outbound-hook.md`](05-block-outbound-hook.md) 実行の直前に機械で止める |
+| ルールに書いたのに危ない操作をやろうとする | [`05-block-outbound-hook.md`](05-block-outbound-hook.md) 実行の直前に仕組みで止める |
 | 同じ手順を3回以上説明している | [`06-skill.md`](06-skill.md) 手順をファイルにする |
 | 毎朝、状況を説明し直している | [`07-inject-now-hook.md`](07-inject-now-hook.md) 現在地を起動時に読ませる |
 
